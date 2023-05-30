@@ -1,0 +1,211 @@
+  body{
+    background-color: #E5E5E5 ;
+  }
+
+  .container-image {
+    position: relative;
+    width: 100%;
+  }
+  
+  .imageLogo {
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    top: 2px;
+    left: 40px;
+
+  }
+  .oracleLogo{
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    top: 2px;
+    left: 140px;
+
+  }
+  .line {
+  border-left: 1px solid #929292;
+  height: 50px; /* ajusta la altura según lo que necesites */
+  margin-left: 133px; /* ajusta el margen según lo que necesites */
+}
+  
+  .container-textarea{
+    position: relative;
+  }
+
+  .input {
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 130px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    border: none;
+
+    color: #0A3871;
+    background-color: #E5E5E5 ;
+
+    white-space: pre-wrap;
+  }
+  input::placeholder{
+    color:#0A3871 ;
+  }
+
+  .container-parrafo{
+    position: relative;
+  }
+
+  .parrafo{
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 500px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+
+    color: #495057;
+
+    opacity: 0.8;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+
+  .container-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 24px; /* agregar un poco de espacio alrededor de los botones */
+  }
+  
+  .button-encriptar, .button-desencriptar, .button-copiar {
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    top: 500px; ;
+    font-size: 1.2rem;
+    border-radius: 24px;
+    cursor: pointer;
+  }
+  
+  .button-encriptar {
+    left: 240px;
+    background-color: #0A3871;
+    border: none;
+    color: #fff;
+  }
+  
+  .button-desencriptar {
+    left: 592px;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+  }
+
+  .button-copiar{
+    border: 1px solid #0A3871;
+    background-color: #fff;
+    color: #0A3871;
+    top: 530px;
+    left: 40px;
+  }
+
+  .rectangle{
+    position: absolute;
+    width: 400px;
+    height: 610px;
+    left: 1000px;
+    top: 40px;
+
+    background-color: #FFF;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    
+  }
+
+  .muñeco{
+    position: absolute;
+    width: 300px;
+    height: 270px;
+    left: 50px;
+    top: 120px;
+  }
+
+  .container-texto{
+    position: relative;
+  }
+
+  .p1, .p2{
+    position: absolute;
+    width: 336px;
+    left: 40px;
+    font-family: 'arial';
+    font-style: normal;
+
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+  }
+
+  .p1{
+    height: 58px;
+    top: 380px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+
+    text-align: center;
+
+    color: #343A40;
+    order: 0;
+    }
+
+  .p2{
+    height: 48px;
+    top: 460px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #495057;
+
+    order: 1;
+  }
+
+  .texto{
+    position: absolute;
+    width: 336px;
+    left: 40px;
+    height: 48px;
+    top: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    border: none;
+
+    color: #0A3871;
+  }
+    

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Encriptador</title>
+    
+</head>
+<body>
+
+    <header>
+        <div class="container-image">
+            <img class="imageLogo" src="alura-logo.png" alt="Logo Alura">
+             <div class="line"></div>
+            <img class="oracleLogo" src="oracle-logo.png" alt="Logo oracle">
+        </div>
+        
+    </header>
+
+
+    <section>
+        <div class="container-textarea">
+            <input class="input" type="text" placeholder="Ingrese el texto aqui">
+        </div>
+
+        <div class="container-tarrafo">
+            <p class="parrafo"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2a1 1 0 0 0 0-2z"/></svg> Solo letras minúsculas y sin acentos </p>
+        </div>
+
+        <div class="container-button">
+            <button class="button-encriptar">Encriptar</button>
+            <button class="button-desencriptar">Desencriptar</button>
+        </div>
+    </section>
+
+
+    <section class="rectangle">
+
+        <div>
+            <p class="texto"></p>
+        </div>
+
+        <div class="container-muñeco">
+            
+            <img id="muneco" class="muñeco" src="Muñeco.png" alt="Muñeco">
+
+        </div>
+
+        <div class="container-texto">
+
+            <div>
+                <p id="p1" class="p1">Ningún mensaje fue encontrado</p>
+            </div>
+
+            <div>
+                <p id="p2" class="p2">Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+
+            <div>
+                <button id="button-copiar" class="button-copiar">Copiar</button>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
